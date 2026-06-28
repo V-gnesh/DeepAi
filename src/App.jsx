@@ -5,6 +5,7 @@ import Register from './register';
 import Login from './login';
 import Chatbot from './Chatbot';
 import { api } from './api';
+import TechBackground from './TechBackground';
 import './App.css';
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
 
   return (
     <Router>
+      <TechBackground />
       {/* Navigation bar */}
       <nav style={{
         display: 'flex',

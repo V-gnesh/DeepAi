@@ -11,7 +11,7 @@ import {
   deleteChat, 
   getMessages, 
   addMessage 
-} from './db.js';
+} from './db_postgres.js';
 
 dotenv.config();
 

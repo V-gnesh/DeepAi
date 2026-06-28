@@ -523,3 +523,15 @@ button { font-family: inherit; }
   .feature-slide { width: 220px; }
   .message-bubble-wrapper { max-width: 92%; }
 }
+
+/* ===================== TECH BACKGROUND CANVAS ===================== */
+.tech-bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
